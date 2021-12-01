@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CB2BE979-A158-4BE7-95D9-BE974BB24730}</ProjectGuid>
+    <ProjectGuid>{4D0C2AF1-39F4-4C40-A1D0-BEC978AD3879}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Coordinates1</RootNamespace>
-    <AssemblyName>Coordinates1</AssemblyName>
+    <RootNamespace>Coordinates2</RootNamespace>
+    <AssemblyName>Coordinates2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Coordinates1.cs" />
-    <Compile Include="coordinates2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
